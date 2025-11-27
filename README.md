@@ -59,12 +59,6 @@ Agents automatically coordinate to:
 3. Analyze and transform it
 4. Produce insights and strategy suggestions
 
-## 🔧 Configuration
-Environment variables (optional):
-```
-OPENAI_API_KEY=your_api_key
-```
-
 ## 🛠 Extending the System
 You can easily add new agents:
 1. Create a new file in `sub_agents/`
