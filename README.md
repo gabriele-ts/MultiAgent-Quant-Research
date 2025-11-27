@@ -21,6 +21,7 @@ MultiAgent-Quant-Research/
 
 ## 🧠 How It Works
 The system uses an orchestrator agent that delegates tasks to specialized sub‑agents:
+- **Coin Verification Agent** - responsible for validating whether a cryptocurrency meets the project’s predefined approval criteria
 - **Data Agent** — fetches raw OHLCV and intraday data
 - **Cleaning Agent** — cleans, resamples, and fixes irregularities in datasets
 - **Analysis Agent** — computes metrics, detects patterns, explores signals
@@ -54,10 +55,11 @@ python agent.py
 ```
 
 Agents automatically coordinate to:
-1. Fetch or receive data
-2. Clean and normalize it
-3. Analyze and transform it
-4. Produce insights and strategy suggestions
+1. Ticker verification
+2. Fetch or receive data
+3. Clean and normalize it
+4. Analyze and transform it
+5. Produce insights and strategy suggestions
 
 ## 🛠 Extending the System
 You can easily add new agents:
