@@ -60,6 +60,9 @@ Agents automatically coordinate to:
 3. Clean and normalize it
 4. Analyze and transform it
 5. Produce insights and strategy suggestions
+6. this is an example of the output it produce:
+   ![Uploading image.png…]()
+
 
 ## 🛠 Extending the System
 You can easily add new agents:
